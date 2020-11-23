@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flags Quizz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+<link href="./assets/css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="./assets/vendors/fa/css/all.min.css">
+<script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-8">
+              <id id="main">
+
+                <h1 class="text-center my-5">Quel est ce drapeau ?</h1>
+                <h2 class="text-center" id="timer" style="display: none;">00 : 00</h2>
+                <h2 class="score text-center"></h2><br>
+                <h2 class="text-center" id="timer-flag" style="display: none; color: red;"></h2>
+                
+                <div class="buttons">
+                  <button type="button" class="btn btn-info btndif easy">Facile</button>
+                  <button type="button" class="btn btn-info btndif simple">Normal</button>
+                  <button type="button" class="btn btn-info btndif hard">difficile</button>
+                  <div class="div-start"><button type="button" class="btn btn-success " id="start" style="display: none;">Commencer</button></div>
+                
+                  
+                  <div id="invisible" style="display: none;"></div>
+                  <div id="invisibledif" style="display: none;"></div>
+                  <h1 class="TF"></h1>
+                  <h4 class="true-rep"></h4>
+                  <h4 class="score-total"></h4>
+                  <h4 class="com"></h4>
+                  <div class="div-restart"><button type="button" class="btn btn-success" id="restart" style="display: none;">Rejouer</button></div>
+                  <div class="next-flag" style="display: none;"><button type="button" class="btn btn-info btn-next">Prochain Drapeau</button></div>
+                </div>
+                <div class="game">
+                    <class class="mb-3">
+                      <div id="flag">
+
+                      </div>
+
+                    </class>
+                </id>
+
+                  <div class="mt-5" id="display-div">
+                    <div class="card-body" id="formulaire">
+                    </div>
+                    
+                  </div>
+                </div>
+                  
+                  
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
